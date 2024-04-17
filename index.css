@@ -1,0 +1,1941 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    /* position:sticky;
+    overflow: auto; */
+    /* overflow-x:; */
+
+}
+
+#sub-nav{
+    /* border: 2px solid; */
+    height: 80px;
+
+
+}
+
+#sub-nav1{
+/* border: 2px solid; */
+height: inherit;
+width: 90%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+
+/* #red{
+    border: 2px solid red;
+} */
+
+
+#nav2 ol{
+/* border: 2px solid; */
+width: 350px;
+display: inline-flex;
+align-items: center;
+justify-content: space-between;
+list-style: none;
+font-size: 17px;
+/* color: #717171; */
+}
+
+#nav2 ol li:first-child{
+    font-weight: 600;
+    font-size: 1rem;
+}
+#nav2 ol li + li{
+    color: #717171;
+}
+
+#nav3 ol{
+   /* border: 2px solid red; */
+   list-style: none;
+   display: inline-flex;
+   align-items:center;
+   justify-content: space-between; 
+   width: 280px;
+}
+
+#nav3 ol li:first-child{
+    font-weight: 600;
+    font-size: 15px;
+} 
+#nav3 ol li + li{
+    font-size: 18px;
+}
+
+
+
+.bx-menu{
+    font-size: 22px;
+    margin-left: 10px;
+    
+}
+
+button{
+    border: 2px solid #000000;
+    border-radius: 50px; 
+}
+#right{
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100px;
+    border-radius: 50px;
+    padding: 5px 5px;
+    border: none;
+    background-color: #ffffff;
+    
+    
+
+}
+#right span svg{
+    margin-left: 10px;
+}
+
+#right:hover{
+    cursor: pointer;
+    box-shadow: rgb(0,0,0,0.15) 1.95px 1.95px 2.6px;
+}
+
+#nav1 svg{
+    color: #FF385C;
+}
+#nav2 ol li + li:hover{
+    /* border: 2px solid; */
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #ebebeb;
+    padding: 15px 10px;
+}
+#nav2 ol li:first-child{
+    cursor: pointer;
+}
+
+#nav1:hover{
+    cursor: pointer;
+}
+.demo:hover{
+    /* border: 2px solid; */
+    border-radius: 50px;
+    background-color: #ebebeb;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+
+
+
+#navbar2nd{
+    border-bottom: 1px solid #c3c2c2;
+    height: 90px;
+}
+
+#subnav2nd{
+    border: 2px solid #f5f0f0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 65px;
+    width: 58%;
+    margin: auto;
+    margin-top: 7px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#subnav2nd #one{
+    border-right: 0.1px solid;
+    width: 230px;
+    margin-left: 20px;
+    border-color: #c3c2c2;
+    
+}
+
+
+
+
+#subnav2nd #two{
+    border-right: 0.1px solid;
+    width: 120px;
+    margin-left: 20px;
+    border-color: #c3c2c2;
+    
+}
+
+
+
+#subnav2nd #three{
+    border-right: 0.1px solid;
+    width: 120px;
+    margin-left: 20px;
+    border-color: #c3c2c2;
+    
+}
+
+
+
+
+#subnav2nd #four{
+    border-right: 0.1px solid;
+    width: 120px;
+    margin-left: 20px;
+    border-color: #c3c2c2;
+  
+}
+#subnav2nd #five{
+    /* border: 2px solid red; */
+    width: 100px;
+}
+
+#subnav2nd #fivesvg{
+    border: 2px solid;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    /* border-color: #ffffff; */
+    background-color: #FF385C;
+    color: #ffffff;
+    margin-left: 70px;
+    
+}
+
+#subnav2nd h1{
+    font-size: 14px;
+}
+
+#subnav2nd h3{
+    font-size: 14px;
+    color: #717171;
+}
+
+
+
+
+#navbar3rd{
+    /* border: 2px solid; */
+    height: 100px;
+}
+#subnavbar3rd{
+    /* border: 2px solid red; */
+    height: inherit;
+    padding-top: 25px;
+    width: 95%;
+    margin: auto;
+}
+
+#navbar3rd #subnavbar3rd ol{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    color: #717171;
+    cursor: pointer;
+
+}
+#navbar3rd #subnavbar3rd ol li:hover{
+    /* border-bottom: 2px solid #000000; */
+    text-decoration: underline;
+    color: #000000;
+}
+
+
+#amazingpool{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 55px;
+}
+
+#rooms{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 160px;
+}
+#trending{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 245px;
+}
+#castles{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 340px;
+}
+#camping{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 420px;
+}
+#treehouses{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 500px;
+}
+#beach{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 600px;
+}
+#lake{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 685px;
+}
+#farms{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 770px;
+}
+#surfing{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 850px;
+}
+#island{
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    left: 940px;
+}
+
+#svgarrow{
+    border: 2px solid;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border-color: #717171;
+    
+   
+}
+#svgfilters{
+ border: 2px solid;
+ width:90px ;
+ height: 45px;
+ border-color: #717171;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ color: #000000;
+ border-radius: 10px;
+}
+
+#svgdisplay{
+    border: 2px solid;
+    width:180px ;
+    height: 45px;
+    border-color: #717171;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+#airbnb3{
+    /* border: 1px solid #717171; */
+    width: 200px;
+    height: 190px;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 25px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    top: 85px;
+    right: 200px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #717171;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    display: none;
+    cursor: pointer;
+    
+}
+#airbnb3 ol{
+    list-style: none;
+}
+
+#signup{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+#part1{
+    /* border: 2px solid red; */
+    height: 350px;
+    
+}
+#subpart1{
+    /* border: 2px solid blue; */
+    width: 95%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+    
+}
+
+#part11 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+   
+}
+#part11 #part111{
+    position: absolute;
+    top: 550px;
+    left: 50px;
+}
+#part11 #part111 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part11 #part111 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part11 #part111 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part11 #part111 h2 span{
+    color: #6b6767;
+}
+#part11 #part1111{
+  position: absolute;
+  top: 550px;
+  left: 320px;
+}
+#part11 #part11111{
+    position: absolute;
+    top: 300px;
+    left: 320px
+}
+
+
+#part12 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+}
+#part12 #part112{
+    position: absolute;
+    top: 550px;
+    left:420px;
+}
+#part12 #part112 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part12 #part112 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part12 #part112 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part12 #part112 h2 span{
+    color: #6b6767;
+}
+#part12 #part1112{
+    position: absolute;
+    top: 550px;
+    left: 680px;
+  }
+  #part12 #part11112{
+    position: absolute;
+    top: 300px;
+    left: 700px
+}
+
+
+#part13 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#part13 #part113{
+    position: absolute;
+    top: 550px;
+    right: 550px;
+}
+#part13 #part113 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part13 #part113 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part13 #part113 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part13 #part113 h2 span{
+    color: #6b6767;
+}
+#part13 #part1113{
+    position: absolute;
+    top: 550px;
+    right: 420px;
+  }
+  #part13 #part11113{
+    position: absolute;
+    top: 300px;
+    left: 1070px
+}
+
+
+#part14 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#part14 #part114{
+    position: absolute;
+    top: 550px;
+    right: 240px;
+}
+#part14 #part114 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part14 #part114 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part14 #part114 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part14 #part114 h2 span{
+    color: #6b6767;
+}
+#part14 #part1114{
+    position: absolute;
+    top: 550px;
+    right: 50px;
+  }
+  #part14 #part11114{
+    position: absolute;
+    top: 300px;
+    right: 70px
+}
+
+
+
+
+
+#part2{
+    /* border: 2px solid red;  */
+    height: 350px;
+    
+}
+#subpart2{
+    /* border: 2px solid blue; */
+    width: 95%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+#part22 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+   
+}
+#part22 #part222{
+    position: absolute;
+    top: 900px;
+    left: 50px;
+}
+#part22 #part222 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part22 #part222 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part22 #part222 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part22 #part222 h2 span{
+    color: #6b6767;
+}
+#part22 #part2222{
+  position: absolute;
+  top: 900px;
+  left: 310px;
+}
+#part22 #part22222{
+    position: absolute;
+    top: 650px;
+    left: 350px
+}
+
+
+#part33 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+}
+#part33 #part333{
+    position: absolute;
+    top: 900px;
+    left:410px;
+}
+#part33 #part333 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part33 #part333 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part33 #part333 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part33 #part333 h2 span{
+    color: #6b6767;
+}
+#part33 #part3333{
+    position: absolute;
+    top: 900px;
+    left: 680px;
+  }
+  #part33 #part33333{
+    position: absolute;
+    top: 650px;
+    left: 680px
+}
+
+
+#part44 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#part44 #part444{
+    position: absolute;
+    top: 900px;
+    right: 590px;
+}
+#part44 #part444 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part44 #part444 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part44 #part444 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part44 #part444 h2 span{
+    color: #6b6767;
+}
+#part44 #part4444{
+    position: absolute;
+    top: 900px;
+    right: 420px;
+  }
+  #part44 #part44444{
+    position: absolute;
+    top: 650px;
+    right: 430px
+}
+
+
+#part55 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#part55 #part555{
+    position: absolute;
+    top: 900px;
+    right: 220px;
+}
+#part55 #part555 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part55 #part555 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part55 #part555 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part55 #part555 h2 span{
+    color: #6b6767;
+}
+#part55 #part5555{
+    position: absolute;
+    top: 900px;
+    right: 50px;
+  }
+  #part55 #part55555{
+    position: absolute;
+    top: 650px;
+    right: 70px
+}
+
+
+
+
+
+
+#part3{
+    /* border: 2px solid red;  */
+    height: 350px;
+    
+}
+#subpart6{
+    /* border: 2px solid blue; */
+    width: 95%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+#part66 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+   
+}
+#part66 #part666{
+    position: absolute;
+    top: 1250px;
+    left: 50px;
+}
+#part66 #part666 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part66 #part666 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part66 #part666 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part66 #part666 h2 span{
+    color: #6b6767;
+}
+#part66 #part6666{
+  position: absolute;
+  top: 1250px;
+  left: 310px;
+}
+#part66 #part66666{
+    position: absolute;
+    top: 1000px;
+    left: 350px
+}
+
+
+#part77 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+}
+#part77 #part777{
+    position: absolute;
+    top: 1250px;
+    left:410px;
+}
+#part77 #part777 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part77 #part777 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part77 #part777 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part77 #part777 h2 span{
+    color: #6b6767;
+}
+#part77 #part7777{
+    position: absolute;
+    top: 1250px;
+    left: 680px;
+  }
+  #part77 #part77777{
+    position: absolute;
+    top: 1000px;
+    left: 700px
+}
+
+
+#part88 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#part88 #part888{
+    position: absolute;
+    top: 1250px;
+    right: 590px;
+}
+#part88 #part888 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part88 #part888 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part88 #part888 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part88 #part888 h2 span{
+    color: #6b6767;
+}
+#part88 #part8888{
+    position: absolute;
+    top: 1250px;
+    right: 420px;
+  }
+  #part88 #part88888{
+    position: absolute;
+    top: 1000px;
+    right: 430px
+}
+
+
+#part99 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#part99 #part999{
+    position: absolute;
+    top: 1250px;
+    right: 220px;
+}
+#part99 #part999 h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#part99 #part999 h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#part99 #part999 h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#part99 #part999 h2 span{
+    color: #6b6767;
+}
+#part99 #part9999{
+    position: absolute;
+    top: 1250px;
+    right: 50px;
+  }
+  #part99 #part99999{
+    position: absolute;
+    top: 1000px;
+    right: 70px
+}
+
+
+
+
+
+
+
+#part4{
+    /* border: 2px solid red;  */
+    height: 350px;
+    
+}
+#subparta{
+    /* border: 2px solid blue; */
+    width: 95%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+#partaa img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+   
+}
+#partaa #partaaa{
+    position: absolute;
+    top: 1600px;
+    left: 50px;
+}
+#partaa #partaaa h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#partaa #partaaa h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#partaa #partaaa h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#partaa #partaaa h2 span{
+    color: #6b6767;
+}
+#partaa #partaaaa{
+  position: absolute;
+  top: 1600px;
+  left: 310px;
+}
+#partaa #partaaaaa{
+    position: absolute;
+    top: 1350px;
+    left: 350px
+}
+
+
+#partbb img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+}
+#partbb #partbbb{
+    position: absolute;
+    top: 1600px;
+    left:410px;
+}
+#partbb #partbbb h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#partbb #partbbb h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#partbb #partbbb h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#partbb #partbbb h2 span{
+    color: #6b6767;
+}
+#partbb #partbbbb{
+    position: absolute;
+    top: 1600px;
+    left: 680px;
+  }
+  #partbb #partbbbbb{
+    position: absolute;
+    top: 1350px;
+    left: 700px
+}
+
+
+#partcc img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#partcc #partccc{
+    position: absolute;
+    top: 1600px;
+    right: 590px;
+}
+#partcc #partccc h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#partcc #partccc h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#partcc #partccc h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#partcc #partccc h2 span{
+    color: #6b6767;
+}
+#partcc #partcccc{
+    position: absolute;
+    top: 1600px;
+    right: 420px;
+  }
+  #partcc #partccccc{
+    position: absolute;
+    top: 1350px;
+    right: 430px
+}
+
+
+#partdd img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#partdd #partddd{
+    position: absolute;
+    top: 1600px;
+    right: 220px;
+}
+#partdd #partddd h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#partdd #partddd h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#partdd #partddd h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#partdd #partddd h2 span{
+    color: #6b6767;
+}
+#partdd #partdddd{
+    position: absolute;
+    top: 1600px;
+    right: 50px;
+  }
+  #partdd #partddddd{
+    position: absolute;
+    top: 1350px;
+    right: 70px
+}
+
+
+
+
+
+
+#part5{
+    /* border: 2px solid red;  */
+    height: 350px;
+    
+}
+#subparte{
+    /* border: 2px solid blue; */
+    width: 95%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+#partee img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+   
+}
+#partee #parteee{
+    position: absolute;
+    top: 1950px;
+    left: 50px;
+}
+#partee #parteee h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#partee #parteee h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#partee #parteee h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#partee #parteee h2 span{
+    color: #6b6767;
+}
+#partee #parteeee{
+  position: absolute;
+  top: 1950px;
+  left: 310px;
+}
+#partee #parteeeee{
+    position: absolute;
+    top: 1700px;
+    left: 350px
+}
+
+
+#partff img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+}
+#partff #partfff{
+    position: absolute;
+    top: 1950px;
+    left:410px;
+}
+#partff #partfff h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#partff #partfff h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#partff #partfff h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#partff #partfff h2 span{
+    color: #6b6767;
+}
+#partff #partffff{
+    position: absolute;
+    top: 1950px;
+    left: 680px;
+  }
+  #partff #partfffff{
+    position: absolute;
+    top: 1700px;
+    left: 700px
+}
+
+
+#partgg img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#partgg #partggg{
+    position: absolute;
+    top: 1950px;
+    right: 590px;
+}
+#partgg #partggg h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#partgg #partggg h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#partgg #partggg h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#partgg #partggg h2 span{
+    color: #6b6767;
+}
+#partgg #partgggg{
+    position: absolute;
+    top: 1950px;
+    right: 420px;
+  }
+  #partgg #partggggg{
+    position: absolute;
+    top: 1700px;
+    right: 430px
+}
+
+
+#parthh img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 90px;
+    
+}
+#parthh #parthhh{
+    position: absolute;
+    top: 1950px;
+    right: 220px;
+}
+#parthh #parthhh h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .875rem;
+}
+#parthh #parthhh h6{
+    color: #6b6767;
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+#parthh #parthhh h2{
+    font-weight: lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: .995rem;
+}
+#parthh #parthhh h2 span{
+    color: #6b6767;
+}
+#parthh #parthhhh{
+    position: absolute;
+    top: 1950px;
+    right: 50px;
+  }
+  #parthh #parthhhhh{
+    position: absolute;
+    top: 1700px;
+    right: 70px
+}
+
+
+#Continue{
+    /* border: 2px solid red; */
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+}
+
+
+#showmore{
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-left: 140px;
+}
+
+
+#footer{
+    /* border: 2px solid red; */
+    height: 800px;
+    background-color: #f5f0f0;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#footer li:hover{
+    text-decoration: underline;
+}
+#footer div h3:hover{
+    text-decoration: underline;
+}
+
+#footer  div h5:hover{
+    text-decoration: underline;
+}
+#subfooter1{
+    /* border-bottom: 2px solid green; */
+    width: 900px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+
+
+#subfooter1 h2{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+#subfooter1 #popular{
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+#li1{
+    color: black;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    height: 37px;
+}
+
+
+#footer #sit{
+    /* border: 2px solid; */
+    width: 1300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#footer #sit h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.43;
+    color: #000;
+}
+
+#footer #sit h5{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #979393;
+}
+
+
+
+#footer #get{
+    /* border: 2px solid; */
+    width: 1300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#footer #get h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.43;
+    color: #000;
+}
+
+#footer #get h5{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #979393;
+}
+
+
+#footer #down{
+    /* border: 2=px solid; */
+    width: 1300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#footer #down h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.43;
+    color: #000;
+}
+
+#footer #down h5{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #979393;
+}
+
+
+#cross{
+    /* border: 2px solid; */
+    width: 1100px;
+    height: 230px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    
+}
+
+
+#cross ol{
+    list-style: none;
+}
+
+
+/* #ant{
+    border: 2px solid;
+} */
+#antli{
+    font-weight: bold;
+}
+
+
+
+#dog{
+    /* border: 2px solid; */
+    margin-top: 20px;
+}
+#dogli{
+    font-weight: bold;
+}
+
+/* #cat{
+    border: 2px solid;
+
+} */
+#catli{
+    font-weight: bold;
+}
+
+#street{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#street1{
+    /* border: 2px solid; */
+    width: 500px;
+    margin-top: -10px;
+    font-size: 17px;
+    margin-left: 70px;
+    
+}
+#street1 ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    list-style: none;
+}
+
+#street2{
+
+    /* border: 2px solid; */
+    width: 300px;
+    margin-top: -10px;
+    font-size: 17px;
+    margin-right: 80px;
+    
+}
+
+#street2 ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bar{
+    border: 2px solid #c7c4c4;
+    border-radius: 20px;
+    height: 500px;
+    width: 440px;
+     display: flex;
+    align-items: center; 
+    /* justify-content: center;  */
+    border-radius: 10px;
+    /* flex-wrap: wrap; */
+    background-color: #ffffff;
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    /* display: none; */
+    visibility: hidden;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    z-index: 99999;
+}
+#input1{
+    height: 50px;
+    width: 400px;
+    /* padding-top: 30px; */
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 6px;
+    padding-left: 5px;
+}
+
+#input2{
+    height: 50px;
+    width: 400px;
+    /* padding-top: 30px; */
+    /* margin-top: 30px; */
+    margin-left: 20px;
+    border-radius: 6px;
+    padding-left: 5px;
+}
+
+#button4{
+    height: 50px;
+    width: 400px;
+    /* padding-top: 30px; */
+    /* margin-top: 30px; */
+    margin-left: 20px;
+    background-color: #ff385c;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 15px;
+}
+#h4{
+    padding-top: 30px;
+    text-align: center;
+}
+#welcome{
+    padding-left: 15px;
+    /* padding-top: 10px; */
+}
+#p4{
+    padding-top: 20px;
+    font-size: 11px;
+    padding-left: 20px;
+}
+#anchor{
+    padding-left: 20px;
+    font-size: 10px;
+    text-decoration:underline #000000;
+    color: #000000;
+}
+#section{
+    border: 1px solid #71717150;
+    width: 180px;
+    position: absolute;
+    left: 20px;
+}
+#span1{
+
+        position: absolute;
+        top: 40vh;
+        left: 212px;
+}
+#section1{
+    border: 1px solid #71717150;
+    width: 180px;
+position: absolute;
+left: 240px;
+}
+#finput{
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight:600;
+    border-radius: 15px;
+    border: 1px solid #717171;
+
+}
+#ginput{
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight:600;
+    border-radius: 15px;
+    border: 1px solid #717171;
+
+}
+#ainput{
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight:600;
+    border-radius: 15px;
+    border: 1px solid #717171;
+
+}
+#einput{
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight:600;
+    border-radius: 15px;
+    border: 1px solid #717171;
+
+}
+#facebook svg{
+    position: absolute;
+    top: 46vh;
+    left: 54px;
+}
+#Google svg{
+    position: absolute;
+    top: 55vh;
+    left: 54px;   
+}
+#Apple svg{
+    position: absolute;
+    top:65vh;
+    left: 54px;
+}
+#Email svg{
+   position: absolute;
+    top: 75vh;
+    left: 54px;
+}
+
+
+#overlay{
+    visibility: hidden;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(206,196,196,0.5);
+    backdrop-filter: 5px;
+}
+
+
+
+
+
+#z{
+    border: 2px solid rgb(216, 209, 209);
+    height: 650px;
+    width: 890px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    visibility: hidden;
+}
+
+#subz{
+    border-bottom: 1px solid #717171;
+    height: 60px;
+    width: 850px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+#subz li+li{
+    padding-right: 610px;
+    
+    
+}
+#subz #language{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;  
+}
+
+#z #y{
+    border: 1px solid #e9e4e4;
+    width: 500px;
+    height: 80px;
+    margin-left: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+    background-color: rgb(247, 247, 247) !important;
+    border-radius: 10px;
+}
+
+
+
+#z #y h5{
+    /* border: 2px solid; */
+    font-weight: 600;
+    /* padding-right: 400px; */
+    font-size: 18px;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    padding-top: 10px;
+    /* padding-left: -45px; */
+    color: rgb(34, 34, 34) !important;
+}
+
+
+#z #y h6{
+    /* border: 2px solid; */
+    height: 30px;
+    /* padding-left: 15px; */
+    padding-top: 8px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#trans{
+    /* border: 2px solid; */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#trans svg{
+    position: absolute;
+    right: 660px;
+    top: 110px;
+}
+#but{
+    height: 30px;
+    width: 50px;
+}
+#z #y svg{
+    border: 2px solid;
+    height: 30px;
+    width: 50px;
+    /* background-color: black; */
+    margin-top: 5px;
+    margin-left: 40px;
+    /* padding-right: 10px; */
+
+}
+
+#z #y #x{
+    border: 2px solid;
+    /* margin-top: 30px; */
+    /* padding-right: 200px; */
+    
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#z h1{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 36px;
+}
+
+#z #w{
+    /* border: 2px solid; */
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+#z #w h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #565555;
+}
+
+#z #w h5{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #979393;
+}
+
+#z h2{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+
+
+#z #p{
+    /* border: 2px solid; */
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+#z #p h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #565555;
+}
+
+#z #p h5{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #979393;
+}
+
+
+#z #q{
+    /* border: 2px solid; */
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#z #q h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #565555;
+}
+
+#z #q h5{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #979393;
+}
+
+#z #r{
+    /* border: 2px solid; */
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+#z #r h3{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #565555;
+}
+
+#z #r h5{
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.43;
+    color: #979393;
+}
